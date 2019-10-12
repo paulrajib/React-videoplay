@@ -4,7 +4,16 @@ import React from 'react';
 class SearchBar extends React.Component{
 
 	render(){
-		return <div>Search Bar</div>;
+		return (
+			<div className="searc-bar ui segment">
+				<form className="ui form">
+					<div className="field">
+						<label>Video Search</label>
+						<input type="text" />
+					</div>
+				</form>
+			</div>
+		);
 	}
 }
 
